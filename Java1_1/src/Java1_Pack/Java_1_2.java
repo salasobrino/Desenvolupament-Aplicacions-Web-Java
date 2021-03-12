@@ -11,7 +11,7 @@ public class Java_1_2 {
 			
 			boolean t= false;
 			
-			if (t=)
+			
 			
 		}
 		
