@@ -13,9 +13,9 @@ public class Java_1_2 {
 			
 			
 			
-		
-		
+		}
+	}
 
 	}
 
-}
+
