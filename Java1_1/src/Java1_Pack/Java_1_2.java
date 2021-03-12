@@ -7,7 +7,11 @@ public class Java_1_2 {
 		
 		//prueba calculadora
 		
-		(String t=true){
+		while(true){
+			
+			boolean t= false;
+			
+			if (t=)
 			
 		}
 		
