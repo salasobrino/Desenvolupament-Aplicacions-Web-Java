@@ -23,7 +23,7 @@ public class Java_1_2 {
 			
 		public static void sum (int x, int y) {
 			
-			int suma=x+y;
+			int suma = x+y;
 			
 			System.out.println("El resultat de la suma és: " + suma);
 			
@@ -32,14 +32,22 @@ public class Java_1_2 {
 		
 		public static void rest (double x, double y) {
 			
-			double resta=x-y;
+			double resta = x-y;
 			
 			System.out.println("El resultat de la resta és: " + resta);
 			
 			
 		}
+		
+		public static void div (double x, double y) {
+			
+			double division = x/y;
+			
+			System.out.println("El resultat de la divisió és: " + division);
+		}
 	
 	}
+
 
 	
 
