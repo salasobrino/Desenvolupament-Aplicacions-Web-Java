@@ -7,16 +7,28 @@ public class Java_1_2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		boolean terminar=false;
+		
 		//prueba calculadora
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Tecleja dos números: \n");
 		
+		while(terminar == false) {
+			
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 		
 		sum(x,y);	
 		rest(x,y);
+		div(x,y);
+		mult(x,y);
+		
+		terminar = true;
+		sc.close();
+		}
+		
+		
 		
 	}
 			
@@ -44,6 +56,14 @@ public class Java_1_2 {
 			double division = x/y;
 			
 			System.out.println("El resultat de la divisió és: " + division);
+		}
+		
+		public static void mult (int x, int y) {
+			
+			int multi = x*y;
+			
+			System.out.println("El resultat de la divisió és: " + multi);
+			
 		}
 	
 	}
